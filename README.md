@@ -39,8 +39,7 @@ Developed by:
 RegisterNumber:  
 */
 
-## Output:[ilovepdf_pages-to-jpg (5).zip](https://github.com/Gopika-9266/Experiment--03-Half-Subtractor-and-Full-subtractor/files/10474781/ilovepdf_pages-to-jpg.5.zip)
-
+## Output:[ilovepdf_pages-to-jpg (6).zip](https://github.com/Gopika-9266/Experiment--03-Half-Subtractor-and-Full-subtractor/files/10476393/ilovepdf_pages-to-jpg.6.zip)
 
 ## Truthtable
 
