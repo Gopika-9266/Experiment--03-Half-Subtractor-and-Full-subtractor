@@ -32,7 +32,7 @@ Write the detailed procedure here
 
 
 ## Program:
-/*
+
 module halfsubtractor(a,b,difference,borrow);
 inputs a,b;
 outputs difference,borrow;
@@ -57,7 +57,7 @@ endmodule
 Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming.
 Developed by: Gopika.R
 RegisterNumber: 22009266 
-*/
+
 
 ## Output:
 
