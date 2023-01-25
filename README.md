@@ -28,27 +28,66 @@ Diff = A ⊕ B ⊕ Bin B = A'Bin + A'B + BBin
 ## Procedure
 
 
-
 Write the detailed procedure here 
 
 
 ## Program:
 /*
+module halfsubtractor(a,b,difference,borrow);
+inputs a,b;
+outputs difference,borrow;
+wire x;
+xor(difference,a,b);
+not(x,a);
+and(borrow,x,b);
+endmodule
+
+
+
+module halfsubtractor(a,b,difference,borrow);
+inputs a,b;
+outputs difference,borrow;
+wire x;
+xor(difference,a,b);
+not(x,a);
+and(borrow,x,b);
+endmodule
+
+
 Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
+Developed by: Gopika.R
+RegisterNumber: 22009266 
 */
 
-## Output:[ilovepdf_pages-to-jpg (6).zip](https://github.com/Gopika-9266/Experiment--03-Half-Subtractor-and-Full-subtractor/files/10476393/ilovepdf_pages-to-jpg.6.zip)
-
-## Truthtable
+## Output:
 
 
+## Truthtable:
 
-##  RTL realization
+
+![images](https://user-images.githubusercontent.com/122762773/214631076-25d9d019-ff5b-4352-9cbe-e97af1f8ec76.png)
 
 
-## Timing diagram 
+![full-subtractor2](https://user-images.githubusercontent.com/122762773/214631197-cc01b461-f312-46cd-96d0-62574f686d20.png)
+
+
+##  RTL realization:
+
+
+![Screenshot (85)](https://user-images.githubusercontent.com/122762773/214631417-1a39af73-66d2-4c95-bbe8-a57e94f9aff9.png)
+
+
+![Screenshot (20)](https://user-images.githubusercontent.com/122762773/214631576-1e524675-fc68-4f96-b463-aede22f55296.png)
+
+
+## Timing diagram:
+
+
+![Screenshot (19)](https://user-images.githubusercontent.com/122762773/214631830-74cba64d-56ec-488d-be2b-bc9e9bff23ad.png)
+
+
+![Screenshot (21)](https://user-images.githubusercontent.com/122762773/214632018-daaff4be-9837-4231-851e-aac112df5f45.png)
+
 
 ## Result:
 Thus the half subtractor and full subtractor circuits are designed and the truth tables is verified using quartus software.
